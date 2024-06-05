@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Password_manager" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:colorPrimaryDark">@color/design_default_color_error</item>
+        <item name="colorButtonNormal">#673AB7</item>
+    </style>
+
+    <style name="Theme.Password_manager" parent="Base.Theme.Password_manager" />
+</resources>

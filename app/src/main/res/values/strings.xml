@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Менеджер паролей</string>
+
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Вход</string>
+    <string name="name">Анатолий Горшков\nРИБО-04-22</string>
+
+    <string name="chooseCategory">Выбор категории</string>
+    <string name="bankCategory">Банки</string>
+    <string name="mailCategory">Почта</string>
+    <string name="socialCategory">Социальные сети</string>
+    <string name="otherCategory">Прочее</string>
+
+    <string name="actionExit">Выйти</string>
+
+    <string name="service">Сервис</string>
+
+    <string name="addPassword">Добавить пароль</string>
+    <string name="generatePassword">Сгенерировать пароль</string>
+    <string name="confirm_master_password">Подтвердить</string>
+    <string name="confirm_master_password_dialog">Подтвердите мастер пароль</string>
+    <string name="confirm_master_key_dialog">Подтвердите мастер ключ</string>
+    <string name="deletePassword">Удалить пароль</string>
+    <string name="forgotKey">Забыл пароль</string>
+    <string name="back">Назад</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="clearDatabase">Очистить базу данных</string>
+    <string name="clearDatabases">Очистить базы данных</string>
+
+    <string name="enterDelServ">Введите сервис, пароль от которого хотите удалить</string>
+    <string name="clearAllPasswords">Удалить пароли во всех категориях</string>
+    <string name="clearAllDatabases">Вы уверены, что хотите удалить все пароли?\nЭто действие отменить невозможно!</string>
+
+    <string name="server_not_answer">Сервер не отвечает</string>
+    <string name="enter_login_password">Введите логин и пароль</string>
+    <string name="successful_delete_all">Все пароли были успешно удалены</string>
+    <string name="successful_delete_password">Пароль был успешно удалён</string>
+    <string name="entry_saved">Запись сохранена</string>
+    <string name="fill_in_the_fields">Заполните поля</string>
+    <string name="error">Произошла ошибка</string>
+    <string name="enter_service">Введите сервис</string>
+    <string name="invalid_value">Неверное значение</string>
+    <string name="password_copied">Пароль скопирован в буфер обмена</string>
+    <string name="invalid_master_password">Неверный мастер пароль</string>
+    <string name="invalid_master_key">Неверный мастер ключ</string>
+    <string name="password_mismatch">Пароли не совпадают</string>
+    <string name="enter_master_password">Введите мастер пароль</string>
+    <string name="enter_master_key">Введите мастер ключ</string>
+</resources>

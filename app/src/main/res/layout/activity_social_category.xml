@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SocialCategoryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/socialCategory"
+        app:titleTextColor="@color/white" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerView"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="NotSibling" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/service"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/service"
+                android:textColor="#00BCD4" />
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textColor="#00BCD4"  />
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/password"
+                android:textColor="#00BCD4" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/addPassword"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/addPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addPassword"
+        android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert" />
+
+    <Button
+        android:id="@+id/deletePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deletePassword"
+        android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert"  />
+
+</LinearLayout>
