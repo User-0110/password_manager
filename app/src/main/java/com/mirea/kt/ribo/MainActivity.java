@@ -67,10 +67,10 @@ public class MainActivity extends AppCompatActivity {
                                     dialog.show(getSupportFragmentManager(), "confirm_master");
                                 }
                             } else if (result == -1) {
-                                Toast.makeText(getApplicationContext(), R.string.server_not_answer, Toast.LENGTH_LONG).show();
+                                Toast.makeText(getApplicationContext(), R.string.invalid_value, Toast.LENGTH_LONG).show();
                             }
                         } catch (JSONException | NullPointerException exception) {
-                            Toast.makeText(getApplicationContext(), R.string.invalid_value, Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), R.string.server_not_answer, Toast.LENGTH_LONG).show();
                         }
                     }
                 } else {
